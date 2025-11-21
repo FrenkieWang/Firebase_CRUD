@@ -5,6 +5,7 @@ import { getFirestore, initializeFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
  // you will need to generate this within Firebase yourself. 
+ // change all the .env into the String from Firebase
   apiKey: process.env.REACT_APP_API_KEY,
   authDomain: process.env.REACT_APP_AUTH_DOMAIN,
   projectId: process.env.REACT_APP_PROJECT_ID,
